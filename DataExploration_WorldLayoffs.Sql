@@ -1,4 +1,9 @@
--- Some Exploration into the data
+/*
+-- Exploratory Data Analysis
+
+-- Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+
+*/
 
 select max(total_laid_off), max(percentage_laid_off) from layoff_staging2; -- Highest number of laid off workers
 

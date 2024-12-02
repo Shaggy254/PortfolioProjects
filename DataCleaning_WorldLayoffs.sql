@@ -1,4 +1,4 @@
--- Data Cleaning
+-- Cleaning the Data
 
 Select * from layoffs;
 
@@ -7,6 +7,7 @@ Select * from layoffs;
 -- 3. Null values and blank values
 -- 4. Remove unnecessary colums
 
+-- Create a staging table
 create table layoff_staging
 like layoffs; -- creating a our staging table
 
